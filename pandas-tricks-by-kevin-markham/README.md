@@ -3,4 +3,7 @@
  - Trick 01 - Add a prefix to all of your column names
    - [Source](trick_0010.ipynb)
      - Used functions [ pd.read_pickle, df.add_prefix, df.add_suffix ]
+ - Trick 02 - Reverse Rows and Columns orders in a DataFrame
+   - [Source](trick_0020.ipynb)
+     - Used functions [ pd.read_pickle, df.iloc ]     
 
