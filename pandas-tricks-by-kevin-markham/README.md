@@ -11,5 +11,8 @@
      - Used functions [ pd.read_pickle, pd.isin ]
  - Trick 04 - DataFrame from multiple CSV files
    - [Source](trick_0040.ipynb)
-     - Used functions [ pd.read_pickle, pd.isin ]     
+     - Used functions [ pd.read_pickle, pd.isin ]
+ - Trick 05 - Select DataFrame columns by dtype
+   - [Source](trick_0050.ipynb)
+     - Used functions [ pd.read_csv, df.head, df.dtypes, df.select_dtypes ]
 
