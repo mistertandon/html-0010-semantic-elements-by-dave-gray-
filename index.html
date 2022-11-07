@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Parvesh Tandon" />
+    <meta name="description" content="HTML sematic elements" />
+    <title>HTMl sematic tag</title>
+    <link rel="icon" href="" type="image/x-icon" />
+    <link rel="stylesheet" href="main.css" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <h1>My Goal of the year</h1>
+      <!--
+        <nav aria-labelledby="header-navigation">
+            <h2 id="header-navigation">Header Navigation</h2>
+      -->
+
+      <nav aria-label="header-navigation">
+        <ul>
+          <li>
+            <a href="#html"> Learning HTML</a>
+          </li>
+          <li>
+            <a href="#vacation"> Planning a vacation </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <article>
+        <h2>I am ready to learn HTML</h2>
+        <p>This is my first webpage</p>
+        <section>
+          <h3>HTML 5 h3 heading</h3>
+
+          <img
+            src="public/images/a_300x300.jpg"
+            alt="default image"
+            width="300"
+            height="300"
+          />
+          <figure>
+            <figcaption>An example of HTML 5 code</figcaption>
+            <p>
+              <code> Hello world </code>
+            </p>
+          </figure>
+        </section>
+        <section>
+          <h3>My Daily schedule</h3>
+          <p>Let me tell you how</p>
+          <ol>
+            <li>I learn more about we dev</li>
+            <li>
+              I plan about my schedule
+              <abbr title="JavaScript Info"
+                ><a href="https://javascript.info/">JavaScript Info</a></abbr
+              >
+            </li>
+          </ol>
+          <aside>
+            <details>
+              <summary>
+                Guesss the <mark>number of hours</mark> I code per day
+              </summary>
+              <p>
+                I start at <time datetime="08:00">8 am</time> and I spent
+                <time datetime="PT3H">4</time>
+                hours on daily basis
+              </p>
+            </details>
+          </aside>
+        </section>
+      </article>
+      <article>
+        <h2>I am planning for vipassana</h2>
+        <p>I have been working hard and <em>really need a gateway</em></p>
+        <p>I live in <abbr title="Norvay">NO</abbr></p>
+        <section>
+          <h3>Place I would like to visit</h3>
+          <ul>
+            <li>
+              <p>I have heard good things about Oslo</p>
+            </li>
+          </ul>
+        </section>
+        <section>
+          <h3>Place I would like to avoid</h3>
+          <dl>
+            <dt>Huk Beach</dt>
+            <dd>
+              Huk beach is quite charming because it is one of Norway’s
+              clothing-optional beaches
+            </dd>
+            <dt>Orre Beach</dt>
+            <dd>
+              It has fine-grained sand, which is reminiscent of the sandy shores
+              found in other warmer climates
+            </dd>
+          </dl>
+        </section>
+      </article>
+    </main>
+    <footer>Copyright</footer>
+  </body>
+</html>
